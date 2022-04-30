@@ -1,0 +1,17 @@
+op=input("enter the shape:")
+op = op.lower()
+
+if op == "square":
+    side=input("side of the square(must be just a number) : ")
+area=int(side) * int(side)
+print(f" the area is: {area}")
+if op == "rectangle":
+ length = input("length of the rectangle (must be just a number): ")
+ breadth = input(" breadth of the rectangle:")
+ area = int(length) * int(breadth)
+print(f" the area is: {area}")
+if op == "circle":
+ r = input("radius of the circle(must be just a number): ")
+ r2 = int(r) * 2
+area = 3.14 * int(r2)
+print(f" the area is: {area}")
