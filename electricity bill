@@ -1,0 +1,9 @@
+Units = int(input("enter units\n"))
+amount =0
+if Units <=100:
+    amount = 0
+if Units >100 and Units<=200:
+     amount = (Units-100)*5
+if Units >200 :
+    amount = (Units-200)*10+ 500
+print("bill to be paid is",amount)
